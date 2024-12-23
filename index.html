@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somesh Nalla Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #7e57c2, #6200ea);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #6200ea;
+        }
+        .skills, .certifications, .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skills div, .certifications div, .interests div {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #6200ea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Somesh Nalla</h1>
+    <p>Undergraduate | Computer Science | AI & ML Enthusiast</p>
+</header>
+
+<div class="container">
+    <!-- About Section -->
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated undergraduate student in Computer Science specializing in Artificial Intelligence and Machine Learning. Passionate about leveraging technology to solve real-world problems and improving everyday life.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>C</div>
+            <div>Python</div>
+            <div>HTML & CSS</div>
+            <div>OOP in Java</div>
+        </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <div class="section" id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div>Autodesk - 3D Models Development</div>
+            <div>GEN AI 2.0 Hackathon - College Placement Chatbot</div>
+            <div>UPSKILL - Cambridge English Certification</div>
+        </div>
+    </div>
+
+    <!-- Interests and Hobbies -->
+    <div class="section" id="interests">
+        <h2>Hobbies & Interests</h2>
+        <div class="interests">
+            <div>Coding</div>
+            <div>Exploring Places in India</div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="section" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Somesh Nalla | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
